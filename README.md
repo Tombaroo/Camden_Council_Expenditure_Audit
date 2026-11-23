@@ -8,7 +8,7 @@ Councils publish every payment over £500 so the public can scrutinise how money
 
 ## Data
 
-408,317 payments over £500 from the London Borough of Camden, published as open data ([Spend over £500 on data.gov.uk](https://www.data.gov.uk/dataset/camden-council-spend-over-500-gbp)). Payment dates run from **February 2019 to January 2026** *[confirm end date in the notebook]*. The CSV is not stored in this repo, so download it from the link.
+408,317 payments over £500 from the London Borough of Camden, published as open data ([Spend over £500 on data.gov.uk](https://www.data.gov.uk/dataset/camden-council-spend-over-500-gbp)). Payment dates run from February 2019 to January 2026. The CSV is not stored in this repo, so download it from the link.
 
 ## What I did, and what each choice changed
 
@@ -23,9 +23,9 @@ Councils publish every payment over £500 so the public can scrutinise how money
 
 ## Findings
 
-- **About 16% of payments (roughly one in six) have a redacted beneficiary.** *[confirm exact count in notebook]*
-- **Those payments total £316m, about 6% of the £5.6bn spent.** *[confirm total in notebook]*
-- Redacted spend is the **third-largest "beneficiary" overall**, after the GLA (£674m) and HMRC payroll (£547m). It is the largest once those two are set aside.
+- **16% of payments (roughly one in six) have a redacted beneficiary.** 
+- **Those payments total £316m, about 6% of the £5.6bn spent.**
+- Redacted spend is the **third-largest "beneficiary" overall**, after the GLA (£674m) and HMRC payroll (£547m).
 - The largest share of redacted spend (£137m) sits in the "Camden Council" organisational unit. I don't know why; it may be internal transfers or sensitive payments, but the data doesn't say.
 - The largest single payment was £31.55m to the GLA (a levy, September 2020).
 
@@ -44,8 +44,6 @@ Councils publish every payment over £500 so the public can scrutinise how money
 
 ## What worked, what I would change, what I learned
 
-*[Tom: draft in your own words. Suggestions.]*
-
 - **Worked:** writing down each cleaning decision and its effect made the results easy to defend.
 - **Would change:** calculate the percentages in the notebook itself, rather than only the totals, and check for duplicate payments.
 - **Learned:** a few messy name variants can hide the single biggest item in a dataset.
@@ -61,4 +59,4 @@ Download the CSV from the link above, save it as `Camden_Council_Spend_Over_500_
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/YOUR-HANDLE) | [email]
+[LinkedIn](https://www.linkedin.com/in/thomas-baker-78804a67/) | [email](thomaspbaker@gmail.com)
